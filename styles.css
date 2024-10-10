@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;  /* Dark background color */
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* Make sure body fills the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100vw;  /* Full viewport width */
+    height: 100vh;  /* Full viewport height */
+    background-color: #2a2a2a;  /* Slightly lighter dark background for the container */
+    overflow-y: auto;  /* Enable vertical scrolling if content overflows */
+    padding: 20px;
+    box-sizing: border-box;  /* Include padding in the width/height calculation */
+    border-radius: 8px; /* Rounded corners for aesthetic appeal */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;  /* Light blue color for the title */
+    font-size: 2.5em;  /* Increase font size */
+    margin: 20px 0;  /* Margin around the title */
+    font-weight: bold;  /* Make the font bold */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);  /* Add a stronger shadow */
+    letter-spacing: 2px;  /* Increase spacing between letters */
+    font-family: 'Noto Sans JP', sans-serif;  /* Change font family to Noto Sans JP */
+}
+
+/* Manhwa items in vertical scroll */
+.manhwa-list-vertical {
+    display: flex;
+    flex-direction: column;  /* Arrange items vertically */
+    gap: 20px;
+}
+
+.manhwa-item {
+    background: #3a3a3a;  /* Dark background for each manhwa item */
+    border: 1px solid #555;  /* Light border for contrast */
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    text-align: center;
+    border-radius: 5px; /* Rounded corners for items */
+}
+
+.manhwa-item img {
+    width: 100%;   /* Full-width image */
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.manhwa-item h2 {
+    font-size: 1.5em;
+    color: #e0e0e0;  /* Lighter color for item titles */
+    margin-bottom: 10px;
+}
+
+.manhwa-item p {
+    color: #ccc; /* Light grey for description text */
+}
+

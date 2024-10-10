@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Solo Leveling",
+        "genre": "Fantasy",
+        "description": "A story about the world’s weakest hunter becoming the strongest.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/solo-level.png"
+    },
+    {
+        "title": "Tower of God",
+        "genre": "Adventure",
+        "description": "Follow Bam as he ascends the mysterious tower.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/tower-of-god.jpg"
+    },
+    {
+        "title": "The Beginning After the End",
+        "genre": "Reincarnation, Magic",
+        "description": "A king reborn in a magical world must find his new path.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/the-beginning-of-the-end.png"
+    },
+    {
+        "title": "Noblesse",
+        "genre": "Vampires, Action",
+        "description": "A vampire awakens from centuries of slumber.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/nobelesse.png"
+    },
+    {
+        "title": "God of High School",
+        "genre": "Martial Arts, Superpowers",
+        "description": "A high school martial arts tournament with high stakes.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/god-of-high-school.png"
+    },
+    {
+        "title": "Omniscient Reader's Viewpoint",
+        "genre": "Fantasy, Apocalypse",
+        "description": "A reader finds himself living in the world of his favorite novel.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/Omniscient+Reader's+Viewpoint.png"
+    },
+    {
+        "title": "The Gamer",
+        "genre": "Fantasy, Gaming",
+        "description": "A boy gains the ability to live life like a video game.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/the-gamer.jpg"
+    },
+    {
+        "title": "Hardcore Leveling Warrior",
+        "genre": "Fantasy, Action",
+        "description": "A top player in an online game must fight to reclaim his status.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/hardcore-level-warrior.jpg"
+    },
+    {
+        "title": "The Boxer",
+        "genre": "Drama, Sports",
+        "description": "A story about an emotionless boy who becomes a boxing prodigy.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/the-boxer.jpg"
+    },
+    {
+        "title": "Lookism",
+        "genre": "Drama, School Life",
+        "description": "A boy who can switch between two bodies explores social issues.",
+        "image_url": "https://anime-manga-internshala-assignment.s3.amazonaws.com/lookism.jpg"
+    }
+]
