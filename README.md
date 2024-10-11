@@ -27,21 +27,23 @@ Sample Nginx configuration:
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
-    listen 443 ssl;  # Enable SSL
-    ssl_certificate /etc/ssl/certs/acm_cert.pem;  # Certificate path
-    ssl_certificate_key /etc/ssl/private/acm_key.pem;  # Key path
 
-    server_name animemanga.devshelke.cloud;
+    root /var/www/html;  # Document root for your application
 
-    root /var/www/html;
+    index index.html index.htm index.nginx-debian.html;
+
+    server_name _;  # Respond to any server name
+
+    # Health check endpoint
+    location /health {
+        return 200 'Healthy';  # Simple response for health checks
+        add_header Content-Type text/plain;  # Set content type to plain text
+    }
 
     location / {
         try_files $uri $uri/ =404;
     }
-
-    location /health {
-        return 200 'Healthy';
-    }
+}
 
 
 ```
