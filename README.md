@@ -42,7 +42,10 @@ server {
     location /health {
         return 200 'Healthy';
     }
-}
+
+
+```
+
 3. Setting Up Auto Scaling Group (ASG)
 Created an Auto Scaling Group to automatically scale EC2 instances based on CPU utilization (threshold: 60%).
 Configured launch templates to ensure that new instances have the application code deployed and Nginx configured.
