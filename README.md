@@ -2,6 +2,10 @@
 
 This project is a web application hosted on AWS with an Nginx server, Auto Scaling Group (ASG), and an Application Load Balancer (ALB). The application dynamically scales to handle traffic, supports HTTPS, and is accessible via a custom domain. 
 
+LINK : https://animemanga.devshelke.cloud
+
+I have used my custom domain devshelke.cloud and animemanga.devshelke.cloud as subdomain
+
 ## Components
 - **AWS EC2**: Hosts the application using Nginx.
 - **AWS Application Load Balancer (ALB)**: Distributes incoming traffic.
