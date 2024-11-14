@@ -1,4 +1,4 @@
-# Cloud Computing Assignment Documentation
+# Load balancing on aws
 
 This project is a web application hosted on AWS with an Nginx server, Auto Scaling Group (ASG), and an Application Load Balancer (ALB). The application dynamically scales to handle traffic, supports HTTPS, and is accessible via a custom domain. 
 
